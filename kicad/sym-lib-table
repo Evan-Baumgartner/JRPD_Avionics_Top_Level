@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "JRPD_Avionics") (type "KiCad") (uri "${KIPRJMOD}/../lib/JRPD_Avionics.kicad_sym") (options "") (descr ""))
+)
