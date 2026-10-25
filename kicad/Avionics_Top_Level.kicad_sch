@@ -828,7 +828,7 @@
 				(pin unspecified line
 					(at -2.54 12.7 0)
 					(length 2.54)
-					(name "!DRDY"
+					(name "~{DRDY}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -846,7 +846,7 @@
 				(pin unspecified line
 					(at -2.54 10.16 0)
 					(length 2.54)
-					(name "DOUT/!DRDY"
+					(name "DOUT/~{DRDY}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1000,8 +1000,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U11"
-				(at 23.876 39.878 0)
+			(property "Reference" "U"
+				(at 24.638 40.386 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1011,7 +1011,7 @@
 				)
 			)
 			(property "Value" "JRPD_Pressure_Conditioner"
-				(at 12.7 38.1 0)
+				(at 12.446 38.354 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -8199,6 +8199,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RTD_Conditioner_1")
 		(lib_id "JRPD_Avionics:RTD_Conditioner")
 		(at 101.6 266.7 0)
 		(unit 1)
@@ -8389,7 +8390,6 @@
 		)
 	)
 	(symbol
-		(lib_name "RTD_Conditioner_1")
 		(lib_id "JRPD_Avionics:RTD_Conditioner")
 		(at 101.6 228.6 0)
 		(unit 1)
@@ -9546,6 +9546,7 @@
 		)
 	)
 	(symbol
+		(lib_name "GP{colon}50_Pressure_Sensor_2")
 		(lib_id "JRPD_Avionics:GP{colon}50_Pressure_Sensor")
 		(at 228.6 38.1 0)
 		(unit 1)
@@ -10410,7 +10411,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GP{colon}50_Pressure_Sensor_2")
 		(lib_id "JRPD_Avionics:GP{colon}50_Pressure_Sensor")
 		(at 228.6 88.9 0)
 		(unit 1)
